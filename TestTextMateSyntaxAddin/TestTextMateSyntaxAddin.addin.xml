@@ -1,0 +1,26 @@
+﻿<Addin
+	name        = "Test Textmate Syntax"
+	id          = "TestTextMateSyntaxAddin"
+	namespace   = "MonoDevelop"
+	author      = "Matt Ward"
+	copyright   = "MIT"
+	url         = "https://github.com/mrward/"
+	description = "Provides one syntax highlighting bundle"
+	category    = "IDE extensions"
+	version     = "0.1">
+	
+	<Runtime>
+		<Import assembly="TestTextMateSyntaxAddin.dll" />
+		<Import file="Foo.sublime-syntax" />
+	</Runtime>
+
+	<Dependencies>
+		<Addin id="Core" version="6.0"/>
+		<Addin id="Ide" version="6.0"/>
+		<Addin id="SourceEditor2" version="5.10"/>
+	</Dependencies>
+
+	<Extension path="/MonoDevelop/SourceEditor2/Bundles">
+		<Templates file="Foo.sublime-syntax" />
+	</Extension>
+</Addin>

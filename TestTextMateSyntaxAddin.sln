@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTextMateSyntaxAddin", "TestTextMateSyntaxAddin\TestTextMateSyntaxAddin.csproj", "{07FE6F07-01BB-4CE0-8862-31713FC3379A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07FE6F07-01BB-4CE0-8862-31713FC3379A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FE6F07-01BB-4CE0-8862-31713FC3379A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FE6F07-01BB-4CE0-8862-31713FC3379A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FE6F07-01BB-4CE0-8862-31713FC3379A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
